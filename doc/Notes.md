@@ -104,3 +104,14 @@ to app.component:
 ```thu 13Feb2020 5:22pm```
 
 adding more documentation to the app.component class
+
+```thu 13Feb2020 5:26pm```
+
+I'm writing now the components: 
+
+form
+  . name input
+  . lang selector 
+  . submit button
+
+contents placehold
