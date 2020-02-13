@@ -1,5 +1,7 @@
 ## Notes and changelog
 
+- - 
+
 ```thu 13Feb2020 3:55pm``` 
 
 These are Albert Abril personal notes on the exercise, 
@@ -26,8 +28,39 @@ For now just plain static files.
 Perhaps as a #ToDo, a bundler will be included (rollup, parcel, webpack or similar), 
 and in this case would be minified and bundled for every modern browser, including Internet Explorer.
 
+- - 
+
 ```thu 13Feb2020 4:05pm``` 
 
 Basic index.html, style.css and scripts.js files added.
 
+- - 
+
 ```thu 13Feb2020 4:13pm``` 
+
+moving markdown files to doc/ and css & js files to src/
+
+- - 
+
+```thu 13Feb2020 4:20pm``` 
+
+Reading wikipedia API documentation
+
+There is two resources that I am interested in: 
+
+1. List of languages available in wikipedia where I can have the values of: language name in multiple languages, wikipedia subdomain
+2. Content hierarchy by an article and language
+
+
+```thu 13Feb2020 4:30pm``` 
+
+1. 
+  I am skipping languages for now, and will be adding manually because time deadline. 
+  Perhaps later will review and add languages dynamically from the API. #ToDo
+
+2. 
+  I can see action=parse is the correct way to retrieve content from articles, 
+  and with the prop=sections parameters in particular, the content hierarchy can be fetched as a collection in json, i.e.:
+  https://en.wikipedia.org/w/api.php?action=parse&prop=sections&page=esperanto&format=json
+
+- - 
