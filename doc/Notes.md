@@ -109,9 +109,25 @@ adding more documentation to the app.component class
 
 I'm writing now the components: 
 
-form
-  . name input
-  . lang selector 
-  . submit button
+form                    form.component.js
+  . name input          inputname.component.js
+  . lang selector       langselector.component.js
+  . submit button       submit.component.js
 
-contents placehold
+contents placehold      content.component.js
+
+
+```thu 13Feb2020 5:29pm```
+
+Also, now I need to figure out how to add children nodes dynamically, 
+but I think I know how to, since I did that before. Let's see.
+
+
+
+
+
+
+
+
+
+
