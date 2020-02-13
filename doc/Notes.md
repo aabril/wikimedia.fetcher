@@ -139,3 +139,12 @@ Component.init() for cleaning code
 ```thu 13Feb2020 5:56pm```
 
 Clean
+
+```thu 13Feb2020 6:08pm```
+
+Added form and form-subcomponents which load dynamically, 
+by the subnode system created on the constructor. 
+pd: perhaps I'm overengineering a little bit, but well, 
+a challenge is a challenge and there is not any external lib, 
+as a fan of readable code, I'm just being creative.
+

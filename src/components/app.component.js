@@ -16,7 +16,6 @@ class appComponent extends Component {
 
     html = () => `
         <div>
-            <div>hola</div>
             <subnode sid="formComponent"></subnode>
         </div>
     `

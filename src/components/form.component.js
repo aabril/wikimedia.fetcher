@@ -1,4 +1,6 @@
 import Component from './component.js'
+import inputname from './inputname.component.js'
+import langselector from './langselector.component.js'
 
 class formComponent extends Component {
     constructor() {
@@ -6,12 +8,23 @@ class formComponent extends Component {
         this.init()
     }
 
+    subcomponents = {
+        inputname,
+        langselector
+    }
+
     html = () => `
-        <div>form Component</div>
+        <form>
+          <subnode sid="inputname"></subnode>
+          <subnode sid="langselector"></subnode>
+          <p>
+            <button>Fetch</button>
+          </p>
+        </form>
     `
 
     style = () => `
-        background: green;
+        background: lightgreen;
     `
  }
 
