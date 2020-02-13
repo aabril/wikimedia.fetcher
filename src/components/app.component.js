@@ -1,5 +1,6 @@
 import Component from './component.js'
 import formComponent from './form.component.js'
+import contentComponent from './content.component.js'
 
 class appComponent extends Component {
     constructor() {
@@ -7,21 +8,16 @@ class appComponent extends Component {
         this.init()
     }
 
-    subcomponents = { formComponent }
-
-    // just an example
-    // onclick = () => {
-    //     console.log('ho! clicked')
-    // }
+    subcomponents = { formComponent, contentComponent }
 
     html = () => `
         <div>
             <subnode sid="formComponent"></subnode>
+            <subnode sid="contentComponent"></subnode>
         </div>
     `
 
     style = () => `
-        background: red;
     `
  }
 
