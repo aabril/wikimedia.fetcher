@@ -127,8 +127,9 @@ but I think I know how to, since I did that before. Let's see.
 
 creates a parent component to be extended, to avoid duplicate of code (like the template parser)
 
+```thu 13Feb2020 5:48pm```
 
-
+adding form dynamically with a <subnode> html tag
 
 
 
