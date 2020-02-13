@@ -25,3 +25,9 @@ Most of the modern browsers support ES6 script modules, except Internet Explorer
 For now just plain static files.
 Perhaps as a #ToDo, a bundler will be included (rollup, parcel, webpack or similar), 
 and in this case would be minified and bundled for every modern browser, including Internet Explorer.
+
+```thu 13Feb2020 4:05pm``` 
+
+Basic index.html, style.css and scripts.js files added.
+
+```thu 13Feb2020 4:13pm``` 
