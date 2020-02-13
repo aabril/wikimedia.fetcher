@@ -100,3 +100,7 @@ to app.component:
 
 (ok, since I'm not usign any UI library, perhaps doing from scracth will take a bit more than two hours)
 (i'm also documenting as much as i can, doing my best)
+
+```thu 13Feb2020 5:22pm```
+
+adding more documentation to the app.component class
