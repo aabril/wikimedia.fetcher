@@ -63,4 +63,21 @@ There is two resources that I am interested in:
   and with the prop=sections parameters in particular, the content hierarchy can be fetched as a collection in json, i.e.:
   https://en.wikipedia.org/w/api.php?action=parse&prop=sections&page=esperanto&format=json
 
+
+```thu 13Feb2020 4:40pm``` 
+
+  Alternatively, the whole content can be retrieved formatted in html and later on I can parse by the DOM elements, (but seems to be a bit hacky, honestly),
+  the example endpoint would be from: https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&page=esperanto
+
+
+
+```thu 13Feb2020 4:40pm``` 
+
+  Regarding list of languages
+  https://en.wikipedia.org/wiki/List_of_language_names
+
+```thu 13Feb2020 4:53pm``` 
+
+
+
 - - 
