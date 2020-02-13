@@ -1,18 +1,3 @@
-class appComponent {
-    constructor() {
-        let html = this.html()
-        const template = document.createElement('template')
-        html = html.trim()
-        template.innerHTML = html
-        this.node = template.content.firstChild
-    }
-
-    html = () => `
-        <div>hello world!</div>
-    `
-}
-
-const app = new appComponent()
-
+import appComponent from './components/app.component.js'
 const main = document.querySelector('#main')
-main.appendChild(app.node)
+main.appendChild(appComponent.node)

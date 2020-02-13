@@ -87,3 +87,7 @@ adding the first component,
 structured as a **class** with a **html** method, 
 considered interesting to treat it as a DOM node and not a template literal string, because later on I will be adding style and eventListeners
 
+```thu 13Feb2020 5:10pm```
+
+script.js now it is imported as a module
+and now it is able to split in files to be able to import/export as ES6 modules
