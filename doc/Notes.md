@@ -148,3 +148,6 @@ pd: perhaps I'm overengineering a little bit, but well,
 a challenge is a challenge and there is not any external lib, 
 as a fan of readable code, I'm just being creative.
 
+```thu 13Feb2020 6:15pm```
+
+add event listener to form submit
