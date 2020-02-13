@@ -123,7 +123,9 @@ Also, now I need to figure out how to add children nodes dynamically,
 but I think I know how to, since I did that before. Let's see.
 
 
+```thu 13Feb2020 5:38pm```
 
+creates a parent component to be extended, to avoid duplicate of code (like the template parser)
 
 
 
