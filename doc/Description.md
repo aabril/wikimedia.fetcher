@@ -11,7 +11,7 @@ Clicking on an item in table of contents takes the user to that section in the c
 An example of the user interface is given below.
 
 ![alt text](https://raw.githubusercontent.com/aabril/wikimedia.fetcher/master/readme.picture.png)
-
+git push -u origin master
 
 ## Instructions 
 
