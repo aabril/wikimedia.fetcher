@@ -4,15 +4,10 @@ import formComponent from './form.component.js'
 class appComponent extends Component {
     constructor() {
         super()
-        const html = this.html() //format template
-        this.node = this.htmlToTemplate(html) //add template as DOM node
-        this.addSubnodes()
-        this.node.style = this.style() // add style to DOM node
-        // // this.node.addEventListener('click', this.onclick) //just an example
+        this.init()
     }
 
     subcomponents = { formComponent }
-
 
     // just an example
     // onclick = () => {

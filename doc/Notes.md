@@ -132,5 +132,10 @@ creates a parent component to be extended, to avoid duplicate of code (like the 
 adding form dynamically with a <subnode> html tag
 
 
+```thu 13Feb2020 5:54pm```
 
+Component.init() for cleaning code
 
+```thu 13Feb2020 5:56pm```
+
+Clean
