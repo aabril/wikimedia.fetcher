@@ -91,3 +91,12 @@ considered interesting to treat it as a DOM node and not a template literal stri
 
 script.js now it is imported as a module
 and now it is able to split in files to be able to import/export as ES6 modules
+
+```thu 13Feb2020 5:20pm```
+
+to app.component:
+* added style (and attach dynamically)
+* added eventListener (and attach dynamically)
+
+(ok, since I'm not usign any UI library, perhaps doing from scracth will take a bit more than two hours)
+(i'm also documenting as much as i can, doing my best)
