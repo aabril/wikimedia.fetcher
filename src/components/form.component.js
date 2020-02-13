@@ -39,7 +39,14 @@ class formComponent extends Component {
 
     fillContentArticle = (subdomain, value) => {
         console.log('fetch the API')
-        console.log('fill the DOM')
+        const fetchCb = (err, data) => {
+            if(err) return console.err('article contents failed to fetch', err)
+            console.log('fill the DOM', data)
+        }
+
+        fetcher(subdomain, value, fetchCb)
+
+
     }
  }
 

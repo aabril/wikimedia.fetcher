@@ -151,3 +151,19 @@ as a fan of readable code, I'm just being creative.
 ```thu 13Feb2020 6:15pm```
 
 add event listener to form submit
+
+```thu 13Feb2020 6:40pm```
+
+15 minutes break to unfold my brain
+
+```thu 13Feb2020 6:43pm```
+
+simple fetcher to the wikipedia api article content
+notice I had to add origin=* to enable the CORS
+-> not easy to find by the documentation
+
+TODO: 
+* filter by subdomain
+* get params -> from object to parse for better readability
+* cb -> if(err) handle error }else{ fillTheArticleContent  }
+
