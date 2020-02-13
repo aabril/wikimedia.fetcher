@@ -6,6 +6,11 @@ class appComponent {
         template.innerHTML = html
         this.node = template.content.firstChild
         this.node.style = this.style()
+        this.node.addEventListener('click', this.onclick)
+    }
+
+    onclick = () => {
+        console.log('ho! clicked')
     }
 
     html = () => `
@@ -15,6 +20,6 @@ class appComponent {
     style = () => `
         background: red;
     `
-}
+ }
 
 export default new appComponent()
