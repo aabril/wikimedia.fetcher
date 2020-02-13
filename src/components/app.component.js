@@ -13,15 +13,6 @@ class appComponent extends Component {
 
     subcomponents = { formComponent }
 
-    addSubnodes = () => {
-        const subnodes = this.node.querySelectorAll('subnode')
-        subnodes.forEach((subnodeTag) => {
-            const subnodeName = subnodeTag.getAttribute('sid')
-            const selector = `subnode[sid="${subnodeName}"]`
-            const subnodeEl = this.subcomponents[subnodeName].node
-            this.node.querySelector(selector).append(subnodeEl)
-        })
-    }
 
     // just an example
     // onclick = () => {
