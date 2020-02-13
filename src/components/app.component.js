@@ -5,10 +5,15 @@ class appComponent {
         html = html.trim()
         template.innerHTML = html
         this.node = template.content.firstChild
+        this.node.style = this.style()
     }
 
     html = () => `
         <div>hello world!</div>
+    `
+
+    style = () => `
+        background: red;
     `
 }
 
