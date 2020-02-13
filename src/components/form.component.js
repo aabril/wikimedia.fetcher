@@ -1,6 +1,7 @@
 import Component from './component.js'
 import inputname from './inputname.component.js'
 import langselector from './langselector.component.js'
+import content from './content.component.js'
 
 import fetcher from '../utils/fetcher.js'
 
@@ -30,6 +31,7 @@ class formComponent extends Component {
         background: lightgreen;
     `
     formOnSubmit = (e) => {
+        console.log(new Date())
         e.preventDefault();
         const inputname = e.target.inputname.value
         const subdomain = e.target.languages.value
@@ -40,13 +42,15 @@ class formComponent extends Component {
     fillContentArticle = (subdomain, value) => {
         console.log('fetch the API')
         const fetchCb = (err, data) => {
-            if(err) return console.err('article contents failed to fetch', err)
+            if(err) return console.error('article contents failed to fetch', err)
             console.log('fill the DOM', data)
+            // content.fillContent('<div>hola</div>')
+            // const articleContent = this.htmlToTemplate(data.parse.text['*'])
+            document.querySelector('#content').innerHTML = ""
+            document.querySelector('#content').innerHTML = data.parse.text['*']
+
         }
-
         fetcher(subdomain, value, fetchCb)
-
-
     }
  }
 

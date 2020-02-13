@@ -1,8 +1,22 @@
-function getArticleContent(subdomain, articleName, cb) {
-    console.log('subdomain', subdomain)
-    console.log(articleName)
+function serializeUrlParams(obj){
+    return Object.entries(obj).map(([key, val]) => `${key}=${val}`).join('&')
+}
 
-    const fetchUrl = 'https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&page=esperanto&origin=*&format=json'
+function getContentURL(subdomain, articleName) {
+    const fetchBaseUrl = `https://${subdomain}.wikipedia.org/w/api.php`
+    const fetchParams = {
+        "action": 'parse',
+        "section": 0,
+        "prop": "text",
+        "page": articleName,
+        "origin": "*",
+        "format": "json"
+    }
+    return `${fetchBaseUrl}?${serializeUrlParams(fetchParams)}`
+}
+
+function getContent(subdomain, articleName, cb) {
+    const fetchUrl = getContentURL(subdomain, articleName)
 
     fetch(fetchUrl)
         .then(response => response.json())
@@ -14,4 +28,4 @@ function getArticleContent(subdomain, articleName, cb) {
         })
 }
 
-export default getArticleContent
+export default getContent
