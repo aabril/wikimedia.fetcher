@@ -70,7 +70,6 @@ There is two resources that I am interested in:
   the example endpoint would be from: https://en.wikipedia.org/w/api.php?action=parse&section=0&prop=text&page=esperanto
 
 
-
 ```thu 13Feb2020 4:40pm``` 
 
   Regarding list of languages
@@ -81,3 +80,10 @@ There is two resources that I am interested in:
   Adding basic structure for languages
 
 - - 
+
+```thu 13Feb2020 4:55pm``` 
+
+adding the first component, 
+structured as a **class** with a **html** method, 
+considered interesting to treat it as a DOM node and not a template literal string, because later on I will be adding style and eventListeners
+
