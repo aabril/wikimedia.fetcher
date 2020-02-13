@@ -167,3 +167,9 @@ TODO:
 * get params -> from object to parse for better readability
 * cb -> if(err) handle error }else{ fillTheArticleContent  }
 
+```thu 13Feb2020 9:43pm```
+
+I left the desk for having lunch, and now I'm back finishing what polishing last details.
+
+* the 3 ToDos above [done]
+* content component [done]
